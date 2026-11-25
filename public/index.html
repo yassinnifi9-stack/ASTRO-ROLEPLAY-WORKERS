@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ASTOR ROLE PLAY | Official Portal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="bg-glow"></div>
+<header class="nav wrap">
+  <a class="brand" href="#"><span class="brand-mark">A</span><span>ASTOR<span class="blue"> ROLE PLAY</span></span></a>
+  <nav><a href="#home">Home</a><a href="#whitelist">Whitelist</a><a href="#tickets">Support</a></nav>
+  <div id="authArea"><a class="btn btn-small" href="/auth/discord">Login with Discord</a></div>
+</header>
+<main>
+<section class="hero wrap" id="home">
+  <div class="hero-copy">
+    <div class="eyebrow"><i></i> OFFICIAL FIVE M ROLEPLAY COMMUNITY</div>
+    <h1>LIVE YOUR<br><span class="gradient">SECOND LIFE.</span></h1>
+    <p>Welcome to ASTOR ROLE PLAY. Build your story, meet your crew, and make your mark on the city. Your next chapter starts here.</p>
+    <div class="actions">
+      <a class="btn" href="#whitelist">APPLY FOR WHITELIST <b>↗</b></a>
+      <a class="btn btn-ghost" id="discordLink" href="https://discord.com" target="_blank" rel="noreferrer">JOIN DISCORD</a>
+    </div>
+    <div class="hero-meta"><span><i></i> COMMUNITY ONLINE</span><span>EST. 2026</span><span>ROLEPLAY • COMMUNITY • EVENTS</span></div>
+  </div>
+  <div class="hero-art" aria-label="ASTOR ROLE PLAY city artwork">
+    <div class="hero-orbit orbit-a"></div><div class="hero-orbit orbit-b"></div>
+    <div class="hero-emblem"><span>A</span><small>ASTOR CITY</small></div>
+    <div class="floating-tag tag-top">LOS SANTOS <b>•</b> ROLEPLAY</div>
+    <div class="floating-tag tag-bottom"><i></i> YOUR CITY IS WAITING</div>
+  </div>
+</section>
+<section class="feature-strip wrap">
+  <div><span class="feature-icon">✦</span><span><b>REALISTIC ROLEPLAY</b><small>Make every moment count</small></span></div>
+  <div><span class="feature-icon">⌘</span><span><b>ACTIVE COMMUNITY</b><small>Meet your next crew</small></span></div>
+  <div><span class="feature-icon">♜</span><span><b>PLAYER SUPPORT</b><small>Staff ready to help</small></span></div>
+</section>
+<section class="connect wrap">
+  <div><div class="eyebrow">READY TO ENTER?</div><h2>THE CITY IS <span class="blue">CALLING.</span></h2><p>Join the Discord community, complete your whitelist, and get ready to write your story in ASTOR ROLE PLAY.</p></div>
+  <a class="btn" href="#whitelist">GET STARTED ↗</a>
+</section>
+<section class="section wrap" id="whitelist">
+  <div class="section-head"><div><div class="eyebrow">GET ACCESS</div><h2>Whitelist <span class="blue">Application</span></h2><p>Fill in your details and send your application to our staff team.</p></div><span class="step">01 / ACCESS</span></div>
+  <div class="panel"><div class="panel-title"><span class="panel-icon">✦</span><div><b>Become part of the city</b><small>Discord login is required before submitting.</small></div></div>
+  <form id="whitelistForm" class="form-grid">
+    <label>Character name<input name="characterName" placeholder="Your in-game name" required maxlength="60"></label>
+    <label>Your age<input name="age" placeholder="Your age" required maxlength="3"></label>
+    <label class="full">Roleplay experience<textarea name="experience" placeholder="Tell us about your previous RP experience..." required maxlength="1000"></textarea></label>
+    <label class="full">Character story<textarea name="story" placeholder="Describe your character and their story..." required maxlength="1500"></textarea></label>
+    <div class="full form-end"><span class="hint">Your application will be sent privately to staff.</span><button class="btn" type="submit">Submit Application ↗</button></div>
+  </form><div class="notice" id="whitelistNotice"></div></div>
+</section>
+<section class="section wrap" id="tickets">
+  <div class="section-head"><div><div class="eyebrow">WE'RE HERE FOR YOU</div><h2>Open a <span class="blue">Ticket</span></h2><p>Choose a department and our team will help you out.</p></div><span class="step">02 / SUPPORT</span></div>
+  <div class="ticket-layout"><div class="ticket-types">
+    <button class="ticket-type selected" data-topic="Support"><span>◈</span><b>General Support</b><small>Questions and assistance</small><em>→</em></button>
+    <button class="ticket-type" data-topic="Player Report"><span>⚑</span><b>Player Report</b><small>Report a player or incident</small><em>→</em></button>
+    <button class="ticket-type" data-topic="Bug Report"><span>⌘</span><b>Bug Report</b><small>Report a server issue</small><em>→</em></button>
+    <button class="ticket-type" data-topic="Staff Application"><span>✧</span><b>Staff Application</b><small>Apply to join the team</small><em>→</em></button>
+  </div><div class="panel ticket-form"><div class="panel-title"><span class="panel-icon">✉</span><div><b id="ticketTitle">General Support</b><small>A private Discord channel will be created for you.</small></div></div>
+  <form id="ticketForm"><label>Describe your request<textarea name="details" placeholder="Write the details here..." required maxlength="1500"></textarea></label><button class="btn" type="submit">Create Ticket ↗</button></form><div class="notice" id="ticketNotice"></div></div></div>
+</section>
+</main>
+<footer><div class="wrap foot"><a class="brand" href="#"><span class="brand-mark">A</span><span>ASTOR<span class="blue"> ROLE PLAY</span></span></a><span>© 2026 ASTOR ROLE PLAY. All rights reserved.</span><span>ASTOR ROLE PLAY</span></div></footer>
+<script src="/app.js"></script>
+</body></html>
